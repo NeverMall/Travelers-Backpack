@@ -1,29 +1,125 @@
 Russian RU Language file for The Traveller's Backpack Mod!
 
+//Creative Tabs
 itemGroup.travellersbackpack=Traveller's Backpack
 
 //Keybindings
 keys.travellersBackpack.category=Traveller's Backpack
 keys.travellersBackpack.inventory=Инвентарь рюкзака
+keys.travellersBackpack.toggle_tank=Переключатель для шланга
 
 //Actions
-actions.unequip_backpack.nobackpack=Нет рюкзака, чтобы снять.
-actions.unequip_backpack.nospace=Не могу добавить рюкзак в инвентарь, потому что там нет места для него.
+actions.unequip_backpack.nobackpack=Нет рюкзака для снятия.
+actions.unequip_backpack.nospace=Не могу добавить рюкзак в инвентарь, потому что нет места.
 actions.equip_backpack.otherbackpack=Другой рюкзак уже надет.
-actions.deploy_sleeping_bag=Не могу развернуть спальный мешок! Проверьте окрестности.
+actions.deploy_sleeping_bag=Не могу разложить спальный мешок! Проверьте ваше окружение.
+actions.equip_backpack.fail=Нельзя надеть рюкзак.
 
 //Gui
-gui.none.name=Нет
+gui.none.name=Ничего
 gui.empty.name=Пусто
+gui.disabled_crafting.name=Создание выключено
+
+//Tips
+backpack.obtain.bat=Рюкзак можно найти в шахтах и подземельях
+backpack.obtain.iron_golem=Рюкзак можно найти в сундуках Кузницы
+backpack.obtain.electric=Может быть приобретено только нося алмазный рюкзак и при этом поразясь молнией.
+backpack.obtain.pigman=Может быть приобретено только нося свинячий рюкзак и при этом поразясь молнией.
+backpack.obtain.deluxe=Рюкзак можно найти в Цитаделях
+backpack.obtain.villager=Может быть приобретено только при торговле со священником или библиотекарем.
 
 //Items
 item.travellers_backpack.name=Рюкзак путешественника
-item.backpack_tank.name=Резервуар рюкзака
+item.backpack_tank.name=Хранилище рюкзака
 item.hose_nozzle.name=Насадка для шланга
 item.hose.name=Шланг
+
+item.hose.suck=Режим всасывания
+item.hose.spill=Режим разлива
+item.hose.drink=Режим питья
 
 //Blocks
 tile.sleeping_bag_bottom.name=Спальный мешок
 
 //Fluids
 fluid.milk=Молоко
+fluid.potion=Зелье
+
+//Backpacks
+backpack.standard.name=Стандартный
+backpack.bat.name=Летучая мышь
+backpack.black.name=Чёрный
+backpack.blaze.name=Ифрит
+backpack.blue.name=Синий
+backpack.bookshelf.name=Книжный шкаф
+backpack.brown.name=Коричневый
+backpack.brownmushroom.name=Коричневый гриб
+backpack.cactus.name=Кактус
+backpack.cake.name=Торт
+backpack.carrot.name=Морковь
+backpack.chest.name=Сундук
+backpack.chicken.name=Курица
+backpack.coal.name=Угольный
+backpack.cookie.name=Печенька
+backpack.cow.name=Корова
+backpack.creeper.name=Крипер
+backpack.cyan.name=Бирюзовый
+backpack.deluxe.name=Роскошный
+backpack.diamond.name=Алмазный
+backpack.dragon.name=Дракон
+backpack.egg.name=Яичный
+backpack.electric.name=Электрический
+backpack.emerald.name=Изумрудный
+backpack.end.name=Край
+backpack.enderman.name=Эндермен
+backpack.ghast.name=Гаст
+backpack.glowstone.name=Светопыль
+backpack.gold.name=Золотой
+backpack.gray.name=Серый
+backpack.green.name=Зелёный
+backpack.haybale.name=Тюк сена
+backpack.horse.name=Лошадь
+backpack.iron.name=Железный
+backpack.irongolem.name=Железный голем
+backpack.lapis.name=Лазуритовый
+backpack.leather.name=Кожаный
+backpack.lightblue.name=Голубой
+backpack.lightgray.name=Светло-серый
+backpack.lime.name=Лаймовый
+backpack.magenta.name=Пурпурный
+backpack.magmacube.name=Магма слизень
+backpack.melon.name=Арбузный
+backpack.moddednetwork.name=Улучшенная сеть
+backpack.mooshroom.name=Грибная корова
+backpack.nether.name=Адский
+backpack.obsidian.name=Обсидиановый
+backpack.ocelot.name=Оцелот
+backpack.orange.name=Оранжевый
+backpack.overworld.name=Верхний мир
+backpack.pig.name=Свинья
+backpack.pigman.name=Зомби-свиночеловек
+backpack.pink.name=Розовый
+backpack.pumpkin.name=Тыквенный
+backpack.purple.name=Фиолетовый
+backpack.quartz.name=Кварцевый
+backpack.rainbow.name=Радужный
+backpack.red.name=Красный
+backpack.redmushroom.name=Красный мухомор
+backpack.redstone.name=Редстоуновый
+backpack.sandstone.name=Песчаный
+backpack.sheep.name=Овца
+backpack.silverfish.name=Чешуйница
+backpack.skeleton.name=Скелет
+backpack.slime.name=Слизень
+backpack.snow.name=Снежный
+backpack.spider.name=Паук
+backpack.sponge.name=Губка
+backpack.squid.name=Спрут
+backpack.sunflower.name=Подсолнух
+backpack.villager.name=Житель
+backpack.white.name=Белый
+backpack.wither.name=Визер
+backpack.witherskeleton.name=Визер-скелет
+backpack.wolf.name=Волк
+backpack.yellow.name=Жёлтый
+backpack.zombie.name=Зомби
